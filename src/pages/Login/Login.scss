@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+};
+#Login-box{
+    height:100%;
+}
+// 修改提示字体大小
+input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: #aab2bd;
+    /* placeholder字体大小  */
+    font-size: 12px;}
+
+// 修改link  a 标签
+a:link,a:visited{
+    
+    
+}
+.acolor53c{
+    color:#53C5E6
+}
+.am-list-item .am-input-label.am-input-label-5{
+    width:30px;
+}
+// 协议样式
+.mrbuttom{
+    position: relative;
+    bottom:0;
+    color:#000;
+    font-size:12px;
+}
+// 页脚p标签
+.footer-div{
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items:center;
+}

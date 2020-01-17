@@ -1,0 +1,35 @@
+$color:#53C5E6;
+.chat{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content:center; 
+}
+.chat_box{
+    width:300px;
+    height:300px;
+    border:1px solid #F00;
+    background:#fff;
+    border-radius:20px 20px 20px 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center; 
+    p{
+        label{
+            color:$color;
+            line-height:30px;
+        }
+    }
+    img{
+        width:80px;
+        
+    }
+    span{
+
+    }
+    .box-btn{
+        margin-top:20px
+    }
+}

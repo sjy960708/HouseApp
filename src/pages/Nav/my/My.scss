@@ -1,0 +1,119 @@
+
+// a:link,a:visited{
+//     color:#FFF;
+    
+// }
+.acolor{
+    color:#FFF
+}
+// 插件自带样式
+
+
+// 列表文字样式
+.am-list-item .am-list-line .am-list-content{
+    font-size:14px !important;
+    color:#444 !important;
+}
+// 样式
+#My-box{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    // 个人信息栏
+    #My-personage{
+        display:flex;
+        flex-direction:column;
+        
+        height:150px;
+        background-color:#66CCFC;
+        .personage-top{
+            height:50%;
+            
+            display:flex;
+            justify-content:space-between;
+
+            &>img{
+                width:60px;
+                height:60px;
+                border:1px solid #CCC;
+                border-radius:50%;
+                margin:5px 10px 0 30px;
+            }
+            &>p{
+                color:#FFF;
+                margin-top:10px;
+                font-size:18px;
+                line-height:1.5em;
+                &>span{
+                    line-height:0;
+                    
+                    font-size:14px;
+                }
+               
+            }
+            div{
+               margin:10px 10px 0 90px;
+                &>img{
+                    
+                    width:25px;
+                    height:25px; 
+                    
+                }
+            }
+        }
+        .personage-main{
+            // 个人财务
+            display: flex;
+            height:50%;
+            justify-content:space-around;
+            div{
+                flex:1;
+                
+                text-align:center;
+                border-top:1px solid #FFF;
+                border-right:1px solid #Fff;  
+                p{
+                    margin:10px 0;
+                    color:#FFF;
+                }
+                label{
+                    color:#FFF;
+                }
+            }
+            .main-wallet{
+                label{
+                    
+                    img{
+                        width:58px;
+                        vertical-align:middle;
+                        margin-right:-10px;
+                    }
+                }
+                
+            }
+            .main-discounts{
+                img{
+                    width:28px;
+                    vertical-align:middle;
+                    margin-right:10px;
+                }
+            }
+            .main-integral{
+                border-right:0;
+                img{
+                    width:28px;
+                    vertical-align:middle;
+                    margin-right:10px;
+                }
+            }
+        }
+    }
+    // 列表内容
+    #My-main{
+        
+        
+        
+    }
+    
+}
